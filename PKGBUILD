@@ -1,6 +1,6 @@
 
 pkgname=eg
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 pkgdesc="eg will give you useful examples right at the command line. Think of it as a companion tool for man."
 arch=('x86_64')

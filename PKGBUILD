@@ -8,8 +8,8 @@ url="https://github.com/srsudar/eg"
 license=('MIT')
 depends=('python3')
 options=(!emptydirs)
-source=('https://github.com/srsudar/eg/archive/v0.1.1.tar.gz')
-sha512sums=('56bdfa64288cf0d976150479398317cc692aef00043edcd364f0ac33ae807d5da0bc419e52fbc90213e6ce332031da8125b7f92fd5618454d52fa12306a36b9b')
+source=('https://github.com/srsudar/eg/archive/v${pkgver}.tar.gz')
+sha512sums=('2d701331ab204919458fb31a2be93cfa569578717bfa8b62a270c0e5c3c6926e7ceb010f77cf220061c04c626c04005d13967098b52e4391c6f8744540204178')
 
 package() {
   cd "$srcdir/$pkgname-$pkgver"
